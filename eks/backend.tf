@@ -10,7 +10,7 @@ terraform {
   backend "s3" {
     bucket         = "leeladevopsaws.today"
     region         = "us-east-1"
-    key            = "End-to-End-Kubernetes-Three-Tier-DevSecOps-Project/Jenkins-Server-TF/terraform.tfstate"
+    key            = "leela"
     dynamodb_table = "Lock-Files"
     encrypt        = true
   }
